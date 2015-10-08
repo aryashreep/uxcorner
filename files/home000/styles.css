@@ -1,0 +1,1160 @@
+﻿body {
+  margin:0px;
+  background-color:rgba(242, 242, 242, 1);
+  background-image:none;
+  position:relative;
+  left:-0px;
+  width:960px;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:left;
+}
+#base {
+  position:absolute;
+  z-index:0;
+}
+#u0 {
+  position:absolute;
+  left:0px;
+  top:105px;
+  width:960px;
+  height:555px;
+  overflow:hidden;
+}
+#u0_state0 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:960px;
+  height:555px;
+  -ms-overflow-x:hidden;
+  overflow-x:hidden;
+  -ms-overflow-y:hidden;
+  overflow-y:hidden;
+  background-color:rgba(255, 255, 255, 1);
+  background-image:url('../../images/home000/u0_state0.jpg');
+  background-position:left bottom;
+  background-repeat:no-repeat;
+  background-attachment:scroll;
+  background-size:cover;
+}
+#u0_state0_content {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:1px;
+  height:1px;
+}
+#u1 {
+  position:fixed;
+  right:20px;
+  top:50%;
+  margin-top:-256px;
+}
+#u1_state0 {
+  position:relative;
+  left:0px;
+  top:0px;
+  background-image:none;
+}
+#u1_state0_content {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:1px;
+  height:1px;
+}
+#u2 {
+  position:absolute;
+  left:27px;
+  top:0px;
+  width:288px;
+  height:512px;
+  font-family:'MyriadApple-Bold', 'Myriad Apple Bold', 'Myriad Apple';
+  font-weight:700;
+  font-style:normal;
+  font-size:25px;
+  color:#FFFFFF;
+  text-align:center;
+}
+#u2_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:288px;
+  height:512px;
+}
+#u3 {
+  position:absolute;
+  left:0px;
+  top:216px;
+  width:288px;
+  word-wrap:break-word;
+}
+#u4 {
+  position:absolute;
+  left:-216px;
+  top:271px;
+  width:461px;
+  height:19px;
+  -webkit-transform:rotate(90deg);
+  -moz-transform:rotate(90deg);
+  -ms-transform:rotate(90deg);
+  transform:rotate(90deg);
+}
+#u4_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:461px;
+  height:19px;
+}
+#u5 {
+  position:absolute;
+  left:2px;
+  top:2px;
+  width:457px;
+  visibility:hidden;
+  word-wrap:break-word;
+}
+#u6 {
+  position:absolute;
+  left:-82px;
+  top:150px;
+  width:209px;
+  height:10px;
+  -webkit-transform:rotate(270deg);
+  -moz-transform:rotate(270deg);
+  -ms-transform:rotate(270deg);
+  transform:rotate(270deg);
+}
+#u6_start {
+  position:absolute;
+  left:0px;
+  top:-5px;
+  width:18px;
+  height:20px;
+}
+#u6_end {
+  position:absolute;
+  left:192px;
+  top:-5px;
+  width:18px;
+  height:20px;
+}
+#u6_line {
+  position:absolute;
+  left:0px;
+  top:5px;
+  width:209px;
+  height:1px;
+}
+#u7 {
+  position:absolute;
+  left:4px;
+  top:253px;
+  width:19px;
+  height:10px;
+}
+#u7_start {
+  position:absolute;
+  left:0px;
+  top:-5px;
+  width:18px;
+  height:20px;
+}
+#u7_end {
+  position:absolute;
+  left:2px;
+  top:-5px;
+  width:18px;
+  height:20px;
+}
+#u7_line {
+  position:absolute;
+  left:0px;
+  top:5px;
+  width:19px;
+  height:1px;
+}
+#u8 {
+  position:absolute;
+  left:-2px;
+  top:264px;
+  width:30px;
+  height:10px;
+  -webkit-transform:rotate(51deg);
+  -moz-transform:rotate(51deg);
+  -ms-transform:rotate(51deg);
+  transform:rotate(51deg);
+}
+#u8_start {
+  position:absolute;
+  left:0px;
+  top:-5px;
+  width:18px;
+  height:20px;
+}
+#u8_end {
+  position:absolute;
+  left:13px;
+  top:-5px;
+  width:18px;
+  height:20px;
+}
+#u8_line {
+  position:absolute;
+  left:0px;
+  top:5px;
+  width:30px;
+  height:1px;
+}
+#u9 {
+  position:absolute;
+  left:-92px;
+  top:392px;
+  width:230px;
+  height:10px;
+  -webkit-transform:rotate(270deg);
+  -moz-transform:rotate(270deg);
+  -ms-transform:rotate(270deg);
+  transform:rotate(270deg);
+}
+#u9_start {
+  position:absolute;
+  left:0px;
+  top:-5px;
+  width:18px;
+  height:20px;
+}
+#u9_end {
+  position:absolute;
+  left:213px;
+  top:-5px;
+  width:18px;
+  height:20px;
+}
+#u9_line {
+  position:absolute;
+  left:0px;
+  top:5px;
+  width:230px;
+  height:1px;
+}
+#u10 {
+  position:absolute;
+  left:66px;
+  top:320px;
+  width:210px;
+  height:40px;
+  font-family:'MyriadApple-Bold', 'Myriad Apple Bold', 'Myriad Apple';
+  font-weight:700;
+  font-style:normal;
+  color:#1B1B1B;
+}
+#u10_img {
+  position:absolute;
+  left:-8px;
+  top:-8px;
+  width:226px;
+  height:56px;
+}
+#u11 {
+  position:absolute;
+  left:2px;
+  top:13px;
+  width:206px;
+  word-wrap:break-word;
+}
+#u0_state1 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:960px;
+  height:555px;
+  visibility:hidden;
+  -ms-overflow-x:hidden;
+  overflow-x:hidden;
+  -ms-overflow-y:hidden;
+  overflow-y:hidden;
+  background-image:url('../../images/home000/u0_state1.jpeg');
+  background-position:left top;
+  background-repeat:no-repeat;
+  background-attachment:scroll;
+  background-size:cover;
+}
+#u0_state1_content {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:1px;
+  height:1px;
+}
+#u12 {
+  position:absolute;
+  left:30px;
+  top:60px;
+  width:303px;
+  height:120px;
+  font-family:'MyriadApple-Bold', 'Myriad Apple Bold', 'Myriad Apple';
+  font-weight:700;
+  font-style:normal;
+  font-size:25px;
+  color:#FFFFFF;
+  text-align:center;
+}
+#u12_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:303px;
+  height:120px;
+}
+#u13 {
+  position:absolute;
+  left:0px;
+  top:6px;
+  width:303px;
+  word-wrap:break-word;
+}
+#u14 {
+  position:absolute;
+  left:245px;
+  top:399px;
+  width:206px;
+  height:10px;
+  -webkit-transform:rotate(90deg);
+  -moz-transform:rotate(90deg);
+  -ms-transform:rotate(90deg);
+  transform:rotate(90deg);
+}
+#u14_start {
+  position:absolute;
+  left:0px;
+  top:-5px;
+  width:18px;
+  height:20px;
+}
+#u14_end {
+  position:absolute;
+  left:189px;
+  top:-5px;
+  width:18px;
+  height:20px;
+}
+#u14_line {
+  position:absolute;
+  left:0px;
+  top:5px;
+  width:206px;
+  height:1px;
+}
+#u15 {
+  position:absolute;
+  left:348px;
+  top:295px;
+  width:19px;
+  height:10px;
+  -webkit-transform:rotate(180deg);
+  -moz-transform:rotate(180deg);
+  -ms-transform:rotate(180deg);
+  transform:rotate(180deg);
+}
+#u15_start {
+  position:absolute;
+  left:0px;
+  top:-5px;
+  width:18px;
+  height:20px;
+}
+#u15_end {
+  position:absolute;
+  left:2px;
+  top:-5px;
+  width:18px;
+  height:20px;
+}
+#u15_line {
+  position:absolute;
+  left:0px;
+  top:5px;
+  width:19px;
+  height:1px;
+}
+#u16 {
+  position:absolute;
+  left:343px;
+  top:283px;
+  width:30px;
+  height:10px;
+  -webkit-transform:rotate(231deg);
+  -moz-transform:rotate(231deg);
+  -ms-transform:rotate(231deg);
+  transform:rotate(231deg);
+}
+#u16_start {
+  position:absolute;
+  left:0px;
+  top:-5px;
+  width:18px;
+  height:20px;
+}
+#u16_end {
+  position:absolute;
+  left:13px;
+  top:-5px;
+  width:18px;
+  height:20px;
+}
+#u16_line {
+  position:absolute;
+  left:0px;
+  top:5px;
+  width:30px;
+  height:1px;
+}
+#u17 {
+  position:absolute;
+  left:232px;
+  top:156px;
+  width:233px;
+  height:10px;
+  -webkit-transform:rotate(90deg);
+  -moz-transform:rotate(90deg);
+  -ms-transform:rotate(90deg);
+  transform:rotate(90deg);
+}
+#u17_start {
+  position:absolute;
+  left:0px;
+  top:-5px;
+  width:18px;
+  height:20px;
+}
+#u17_end {
+  position:absolute;
+  left:216px;
+  top:-5px;
+  width:18px;
+  height:20px;
+}
+#u17_line {
+  position:absolute;
+  left:0px;
+  top:5px;
+  width:233px;
+  height:1px;
+}
+#u18 {
+  position:absolute;
+  left:78px;
+  top:190px;
+  width:210px;
+  height:40px;
+  font-family:'MyriadApple-Bold', 'Myriad Apple Bold', 'Myriad Apple';
+  font-weight:700;
+  font-style:normal;
+  color:#1B1B1B;
+}
+#u18_img {
+  position:absolute;
+  left:-8px;
+  top:-8px;
+  width:226px;
+  height:56px;
+}
+#u19 {
+  position:absolute;
+  left:2px;
+  top:13px;
+  width:206px;
+  word-wrap:break-word;
+}
+#u0_state2 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:960px;
+  height:555px;
+  visibility:hidden;
+  -ms-overflow-x:hidden;
+  overflow-x:hidden;
+  -ms-overflow-y:hidden;
+  overflow-y:hidden;
+  background-image:url('../../images/home000/u0_state2.jpg');
+  background-position:left bottom;
+  background-repeat:no-repeat;
+  background-attachment:scroll;
+  background-size:cover;
+}
+#u0_state2_content {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:1px;
+  height:1px;
+}
+#u20 {
+  position:fixed;
+  right:20px;
+  top:50%;
+  margin-top:-256px;
+}
+#u20_state0 {
+  position:relative;
+  left:0px;
+  top:0px;
+  background-image:none;
+}
+#u20_state0_content {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:1px;
+  height:1px;
+}
+#u21 {
+  position:absolute;
+  left:27px;
+  top:0px;
+  width:288px;
+  height:512px;
+  font-family:'MyriadApple-Bold', 'Myriad Apple Bold', 'Myriad Apple';
+  font-weight:700;
+  font-style:normal;
+  font-size:25px;
+  color:#FFFFFF;
+  text-align:center;
+}
+#u21_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:288px;
+  height:512px;
+}
+#u22 {
+  position:absolute;
+  left:0px;
+  top:216px;
+  width:288px;
+  word-wrap:break-word;
+}
+#u23 {
+  position:absolute;
+  left:-216px;
+  top:271px;
+  width:461px;
+  height:19px;
+  -webkit-transform:rotate(90deg);
+  -moz-transform:rotate(90deg);
+  -ms-transform:rotate(90deg);
+  transform:rotate(90deg);
+}
+#u23_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:461px;
+  height:19px;
+}
+#u24 {
+  position:absolute;
+  left:2px;
+  top:2px;
+  width:457px;
+  visibility:hidden;
+  word-wrap:break-word;
+}
+#u25 {
+  position:absolute;
+  left:-82px;
+  top:150px;
+  width:209px;
+  height:10px;
+  -webkit-transform:rotate(270deg);
+  -moz-transform:rotate(270deg);
+  -ms-transform:rotate(270deg);
+  transform:rotate(270deg);
+}
+#u25_start {
+  position:absolute;
+  left:0px;
+  top:-5px;
+  width:18px;
+  height:20px;
+}
+#u25_end {
+  position:absolute;
+  left:192px;
+  top:-5px;
+  width:18px;
+  height:20px;
+}
+#u25_line {
+  position:absolute;
+  left:0px;
+  top:5px;
+  width:209px;
+  height:1px;
+}
+#u26 {
+  position:absolute;
+  left:4px;
+  top:253px;
+  width:19px;
+  height:10px;
+}
+#u26_start {
+  position:absolute;
+  left:0px;
+  top:-5px;
+  width:18px;
+  height:20px;
+}
+#u26_end {
+  position:absolute;
+  left:2px;
+  top:-5px;
+  width:18px;
+  height:20px;
+}
+#u26_line {
+  position:absolute;
+  left:0px;
+  top:5px;
+  width:19px;
+  height:1px;
+}
+#u27 {
+  position:absolute;
+  left:-2px;
+  top:264px;
+  width:30px;
+  height:10px;
+  -webkit-transform:rotate(51deg);
+  -moz-transform:rotate(51deg);
+  -ms-transform:rotate(51deg);
+  transform:rotate(51deg);
+}
+#u27_start {
+  position:absolute;
+  left:0px;
+  top:-5px;
+  width:18px;
+  height:20px;
+}
+#u27_end {
+  position:absolute;
+  left:13px;
+  top:-5px;
+  width:18px;
+  height:20px;
+}
+#u27_line {
+  position:absolute;
+  left:0px;
+  top:5px;
+  width:30px;
+  height:1px;
+}
+#u28 {
+  position:absolute;
+  left:-92px;
+  top:392px;
+  width:230px;
+  height:10px;
+  -webkit-transform:rotate(270deg);
+  -moz-transform:rotate(270deg);
+  -ms-transform:rotate(270deg);
+  transform:rotate(270deg);
+}
+#u28_start {
+  position:absolute;
+  left:0px;
+  top:-5px;
+  width:18px;
+  height:20px;
+}
+#u28_end {
+  position:absolute;
+  left:213px;
+  top:-5px;
+  width:18px;
+  height:20px;
+}
+#u28_line {
+  position:absolute;
+  left:0px;
+  top:5px;
+  width:230px;
+  height:1px;
+}
+#u29 {
+  position:absolute;
+  left:66px;
+  top:320px;
+  width:210px;
+  height:40px;
+  font-family:'MyriadApple-Bold', 'Myriad Apple Bold', 'Myriad Apple';
+  font-weight:700;
+  font-style:normal;
+  color:#1B1B1B;
+}
+#u29_img {
+  position:absolute;
+  left:-8px;
+  top:-8px;
+  width:226px;
+  height:56px;
+}
+#u30 {
+  position:absolute;
+  left:2px;
+  top:13px;
+  width:206px;
+  word-wrap:break-word;
+}
+#u0_state3 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:960px;
+  height:555px;
+  visibility:hidden;
+  -ms-overflow-x:hidden;
+  overflow-x:hidden;
+  -ms-overflow-y:hidden;
+  overflow-y:hidden;
+  background-image:url('../../images/home___amit___user_experience_designer/u0_state3.jpeg');
+  background-position:left top;
+  background-repeat:no-repeat;
+  background-attachment:scroll;
+  background-size:cover;
+}
+#u0_state3_content {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:1px;
+  height:1px;
+}
+#u31 {
+  position:absolute;
+  left:420px;
+  top:348px;
+  width:540px;
+  height:100px;
+  font-family:'MyriadApple-Bold', 'Myriad Apple Bold', 'Myriad Apple';
+  font-weight:700;
+  font-style:normal;
+  font-size:25px;
+  text-align:center;
+}
+#u31_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:540px;
+  height:100px;
+}
+#u32 {
+  position:absolute;
+  left:0px;
+  top:36px;
+  width:540px;
+  word-wrap:break-word;
+}
+#u33 {
+  position:absolute;
+  left:730px;
+  top:425px;
+  width:210px;
+  height:40px;
+  font-family:'MyriadApple-Bold', 'Myriad Apple Bold', 'Myriad Apple';
+  font-weight:700;
+  font-style:normal;
+  color:#1B1B1B;
+}
+#u33_img {
+  position:absolute;
+  left:-8px;
+  top:-8px;
+  width:226px;
+  height:56px;
+}
+#u34 {
+  position:absolute;
+  left:2px;
+  top:13px;
+  width:206px;
+  word-wrap:break-word;
+}
+#u36 {
+  position:fixed;
+  left:0px;
+  top:0px;
+  width:960px;
+  height:105px;
+  overflow:hidden;
+}
+#u36_state0 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:960px;
+  height:105px;
+  -ms-overflow-x:hidden;
+  overflow-x:hidden;
+  -ms-overflow-y:hidden;
+  overflow-y:hidden;
+  background-image:none;
+}
+#u36_state0_content {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:1px;
+  height:1px;
+}
+#u37 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:2460px;
+  height:105px;
+}
+#u37_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:2460px;
+  height:105px;
+}
+#u38 {
+  position:absolute;
+  left:2px;
+  top:44px;
+  width:2456px;
+  visibility:hidden;
+  word-wrap:break-word;
+}
+#u39 {
+  position:absolute;
+  left:71px;
+  top:46px;
+  width:177px;
+  height:14px;
+  font-family:'MyriadApple-Bold', 'Myriad Apple Bold', 'Myriad Apple';
+  font-weight:700;
+  font-style:normal;
+}
+#u39_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:177px;
+  height:14px;
+}
+#u40 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:177px;
+  white-space:nowrap;
+}
+#u41 {
+  position:absolute;
+  left:20px;
+  top:32px;
+  width:41px;
+  height:41px;
+}
+#u41_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:41px;
+  height:41px;
+}
+#u42 {
+  position:absolute;
+  left:2px;
+  top:12px;
+  width:37px;
+  visibility:hidden;
+  word-wrap:break-word;
+}
+#u43 {
+  position:fixed;
+  right:80px;
+  top:68px;
+}
+#u43_state0 {
+  position:relative;
+  left:0px;
+  top:0px;
+  background-image:none;
+}
+#u43_state0_content {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:1px;
+  height:1px;
+}
+#u44 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:81px;
+  height:30px;
+  font-family:'MyriadApple-Bold', 'Myriad Apple Bold', 'Myriad Apple';
+  font-weight:700;
+  font-style:normal;
+  color:#000000;
+  text-align:center;
+}
+#u44_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:81px;
+  height:30px;
+}
+#u44_img.selected {
+}
+#u44.selected {
+}
+#u44_img.mouseOver {
+}
+#u44.mouseOver {
+}
+#u45 {
+  position:absolute;
+  left:0px;
+  top:8px;
+  width:81px;
+  word-wrap:break-word;
+}
+#u46 {
+  position:absolute;
+  left:98px;
+  top:0px;
+  width:81px;
+  height:30px;
+  font-family:'MyriadApple-Bold', 'Myriad Apple Bold', 'Myriad Apple';
+  font-weight:700;
+  font-style:normal;
+  color:#000000;
+  text-align:center;
+}
+#u46_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:81px;
+  height:30px;
+}
+#u46_img.selected {
+}
+#u46.selected {
+}
+#u46_img.mouseOver {
+}
+#u46.mouseOver {
+}
+#u47 {
+  position:absolute;
+  left:0px;
+  top:8px;
+  width:81px;
+  word-wrap:break-word;
+}
+#u48 {
+  position:absolute;
+  left:197px;
+  top:0px;
+  width:81px;
+  height:30px;
+  font-family:'MyriadApple-Bold', 'Myriad Apple Bold', 'Myriad Apple';
+  font-weight:700;
+  font-style:normal;
+  color:#000000;
+  text-align:center;
+}
+#u48_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:81px;
+  height:30px;
+}
+#u48_img.selected {
+}
+#u48.selected {
+}
+#u48_img.mouseOver {
+}
+#u48.mouseOver {
+}
+#u49 {
+  position:absolute;
+  left:0px;
+  top:8px;
+  width:81px;
+  word-wrap:break-word;
+}
+#u50 {
+  position:absolute;
+  left:295px;
+  top:0px;
+  width:81px;
+  height:30px;
+  font-family:'MyriadApple-Bold', 'Myriad Apple Bold', 'Myriad Apple';
+  font-weight:700;
+  font-style:normal;
+  color:#000000;
+  text-align:center;
+}
+#u50_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:81px;
+  height:30px;
+}
+#u50_img.selected {
+}
+#u50.selected {
+}
+#u50_img.mouseOver {
+}
+#u50.mouseOver {
+}
+#u51 {
+  position:absolute;
+  left:0px;
+  top:8px;
+  width:81px;
+  word-wrap:break-word;
+}
+#u52 {
+  position:absolute;
+  left:112px;
+  top:159px;
+  width:735px;
+  height:16px;
+  font-family:'HelveticaNeue-Light', 'Helvetica Neue Thin', 'Helvetica Neue';
+  font-weight:200;
+  font-style:normal;
+  font-size:16px;
+  color:#FFFFFF;
+}
+#u52_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:735px;
+  height:16px;
+}
+#u53 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:735px;
+  visibility:hidden;
+  word-wrap:break-word;
+}
+#u55 {
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  width:960px;
+  height:45px;
+  overflow:hidden;
+}
+#u55_state0 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:960px;
+  height:45px;
+  -ms-overflow-x:hidden;
+  overflow-x:hidden;
+  -ms-overflow-y:hidden;
+  overflow-y:hidden;
+  background-image:none;
+}
+#u55_state0_content {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:1px;
+  height:1px;
+}
+#u56 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:2460px;
+  height:46px;
+}
+#u56_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:2460px;
+  height:46px;
+}
+#u57 {
+  position:absolute;
+  left:2px;
+  top:15px;
+  width:2456px;
+  visibility:hidden;
+  word-wrap:break-word;
+}
+#u58 {
+  position:fixed;
+  left:50%;
+  margin-left:-105.5px;
+  bottom:10px;
+}
+#u58_state0 {
+  position:relative;
+  left:0px;
+  top:0px;
+  background-image:none;
+}
+#u58_state0_content {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:1px;
+  height:1px;
+}
+#u59 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:211px;
+  height:14px;
+  font-family:'MyriadApple-Bold', 'Myriad Apple Bold', 'Myriad Apple';
+  font-weight:700;
+  font-style:normal;
+}
+#u59_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:211px;
+  height:14px;
+}
+#u60 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:211px;
+  white-space:nowrap;
+}
