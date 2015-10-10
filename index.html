@@ -1,353 +1,357 @@
 ﻿<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-    <title>Untitled Document</title>
+<html>
+  <head>
+    <title>Home | UX2Day</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <link type="text/css" href="resources/css/reset.css" rel="Stylesheet" />
-    <link type="text/css" href="resources/css/default.css" rel="Stylesheet" />
-
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/home___ux2day/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="" type="text/css" rel="stylesheet"/>
+    <link href="" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/home___ux2day/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
     <script type="text/javascript">
-        if (location.href.toString().indexOf('file://localhost/') == 0) {
-            location.href = location.href.toString().replace('file://localhost/', 'file:///');
-        }
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
     </script>
+  </head>
+  <body>
+    <div id="base" class="">
 
-    <script type="text/javascript" src="resources/scripts/jquery-1.7.1.min.js"></script>
-    <script type="text/javascript" src="resources/scripts/player/splitter.js"></script>
-    <script type="text/javascript" src="resources/scripts/axutils.js"></script>
-    <script type="text/javascript" src="resources/scripts/player/axplayer.js"></script>
-    <script type="text/javascript" src="resources/scripts/messagecenter.js"></script>
-    <script type="text/javascript" src="data/document.js"></script>
-    <style type="text/css">
+      <!-- central_content (Dynamic Panel) -->
+      <div id="u0" class="ax_dynamic_panel" data-label="central_content">
+        <div id="u0_state0" class="panel_state" data-label="State1">
+          <div id="u0_state0_content" class="panel_state_content">
 
-#outerContainer {
-	width:1000px;
-	height:1500px;
-}
-
-.vsplitbar {
-	width: 3px;
-	background: #B9B9B9;
-}
-
-#rightPanel {
-    background-color: White;
-}
-
-#leftPanel {
-    /*min-width: 190px;*/
-}
-
-.splitterMask {
-   position:absolute;
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 100%;
-   overflow: hidden;
-   background-image: url(resources/images/transparent.gif);
-   z-index: 20000;
-}
-
-
-    </style>
-    <script type="text/javascript" language="JavaScript"><!--
-        // isolate scope
-        (function() {
-            setUpController();
-
-            var configuration = $axure.document.configuration;
-            var _settings = {};
-            _settings.projectId = configuration.prototypeId;
-            _settings.isAxshare = configuration.isAxshare;
-            _settings.loadFeedbackPlugin = configuration.loadFeedbackPlugin;
-            _settings.startCollapsed = HashString("c") == "1";
-            if(HashString("c") == "2") closePlayer();
-
-            $axure.player.settings = _settings;
-
-            $(window).bind('load', function() {
-                if(CHROME_5_LOCAL && !$('body').attr('pluginDetected')) {
-                    window.location = 'resources/chrome/chrome.html';
-                }
-            });
-
-            $(document).ready(function() {
-                $axure.page.bind('load.start', mainFrame_onload);
-                $axure.messageCenter.addMessageListener(messageCenter_message);
-
-                if($axure.player.settings.loadFeedbackPlugin) {
-                    if($axure.player.settings.isAxshare) {
-                        $axure.utils.loadJS('/Scripts/plugins/feedback/feedback.js');
-                    } else {
-                        $axure.utils.loadJS('http://share.axure.com/Scripts/plugins/feedback/feedback.js');
-                    }
-                }
-
-                if(navigator.userAgent.indexOf("MSIE") >= 0) $('#outerContainer').width('100%');
-                initialize();
-                if($axure.player.settings.startCollapsed) $('#outerContainer').splitter({ sizeLeft: 0 });
-                else $('#outerContainer').splitter({ sizeLeft: 250 });
-                $('#leftPanel').width(250);
-
-                $(window).resize(function() { resizeContent(); });
-
-                $('#maximizePanelContainer').hide();
-
-                initializeLogo();
-
-                $(window).resize();
-                resizeContent();
-                //wait for ie to get to a good state and resize
-                if(IE && BROWSER_VERSION == "6.0") setTimeout(function() { $('#outerContainer').trigger('resize'); }, 30);
-
-                if($axure.player.settings.startCollapsed) {
-                    collapse();
-                    $('#leftPanel').width(0);
-                }
-            });
-        })();
-
-        var lastLeftPanelWidth = 250;
-
-        function messageCenter_message(message, data) {
-            if(message == 'expandFrame') expand();
-        }
-
-        function resizeContent() {
-            var newHeight = $(window).height();
-            var newWidth = $(window).width();
-
-            var controlContainerHeight = newHeight - 42;
-            if($('#interfaceControlFrameLogoContainer').is(':visible')) controlContainerHeight -= $('#interfaceControlFrameLogoContainer').height() + 16;
-
-            $('#outerContainer').height(newHeight).width(newWidth);
-            $('.vsplitbar').height(newHeight);
-            $('#leftPanel').height(newHeight);
-            $('#interfaceControlFrame').height(newHeight);
-            $('#interfaceControlFrameContainer').height(controlContainerHeight);
-
-            $('#rightPanel').height(newHeight);
-            $('#mainFrame').height(newHeight);
-
-            if($('#leftPanel').is(':visible')) $('#rightPanel').width($(window).width() - $('#leftPanel').width() - $('.vsplitbar').width());
-            else $('#rightPanel').width($(window).width());
-        }
-
-        function closePlayer() {
-            if($axure.page.location) window.location.href = $axure.page.location;
-            else {
-                var pageFile = getInitialUrl();
-                var currentLocation = window.location.toString();
-                window.location.href = currentLocation.substr(0, currentLocation.lastIndexOf("/") + 1) + pageFile;
-            }
-        }
-
-        function replaceHash(newHash) {
-            var currentLocWithoutHash = window.location.toString().split('#')[0];
-
-            //We use replace so that every hash change doesn't get appended to the history stack.
-            //We use replaceState in browsers that support it, else replace the location
-            if (typeof window.history.replaceState != 'undefined') {
-                window.history.replaceState(null, null, currentLocWithoutHash + newHash);
-            } else {
-                window.location.replace(currentLocWithoutHash + newHash);
-            }
-        }
-
-        function collapse() {
-            var currentHash = window.location.hash;
-            //If the collapse hash string var isn't present and set to 1, insert it
-            if (currentHash.indexOf('#c=1') == -1 && currentHash.indexOf('&c=1') == -1) {
-                var hashToSet = '';
-
-                var varIndex = currentHash.indexOf('#c=');
-                if (varIndex == -1) varIndex = currentHash.indexOf('&c=');
-                if (varIndex != -1) {
-                    var newHash = currentHash.substring(0, varIndex);
-
-                    newHash = newHash == '' ? '#c=1' : newHash + '&c=1';
-
-                    var ampIndex = currentHash.indexOf('&', varIndex + 1);
-                    if (ampIndex != -1) {
-                        newHash = newHash + currentHash.substring(ampIndex);
-                    }
-                    hashToSet = newHash;
-                } else if (currentHash.indexOf('#') != -1) {
-                    hashToSet = currentHash + '&c=1';
-                } else {
-                    hashToSet = '#c=1';
-                }
-
-                if (hashToSet != '') {
-                    replaceHash(hashToSet);
-                }
-            }
-
-            $('#maximizePanelContainer').show();
-            lastLeftPanelWidth = $('#leftPanel').width();
-            $('#leftPanel').hide();
-            $('.vsplitbar').hide();
-            $('#rightPanel').width($(window).width());
-            $(window).resize();
-            $('#outerContainer').trigger('resize');
-        }
-
-        function expand() {
-            var currentHash = self.location.hash;
-            var varIndex = currentHash.indexOf('&c=');
-            if (varIndex == -1) varIndex = currentHash.indexOf('#c=');
-            //If the collapse hash string var is present, remove it
-            if (varIndex != -1) {
-                var newHash = currentHash.substring(0, varIndex);
-
-                var ampIndex = currentHash.indexOf('&', varIndex + 1);
-                if (ampIndex != -1) {
-                    newHash = newHash == '' ? '#' + currentHash.substring(ampIndex + 1) : newHash + currentHash.substring(ampIndex);
-                }
-
-                replaceHash(newHash);
-            }
-
-            $('#maximizePanelContainer').hide();
-            $('#leftPanel').width(lastLeftPanelWidth);
-            $('#leftPanel').show();
-            $('.vsplitbar').show();
-            $('#rightPanel').width($(window).width() - $('#leftPanel').width() - $('.vsplitbar').width());
-            $(window).resize();
-            $('#outerContainer').trigger('resize');
-        }
-
-        function initialize() {
-            var legacyQString = QueryString("Page");
-            if (legacyQString.length > 0) {
-                location.href = location.href.substring(0, location.href.indexOf("?")) + "#p=" + legacyQString;
-                return;
-            }
-
-            var mainFrame = document.getElementById("mainFrame");
-            mainFrame.contentWindow.location.href = getInitialUrl();
-        }
-        
-        function getInitialUrl() {
-            var pageName = HashString("p");
-            if(pageName.length > 0) return pageName + ".html";
-            else {
-                var url = getFirstPageUrl($axure.document.sitemap.rootNodes);
-                return (url ? url : "about:blank");
-            }
-        }
-
-        function getFirstPageUrl(nodes) {
-            for (var i = 0; i < nodes.length; i++) {
-                var node = nodes[i];
-                if (node.url) return node.url;
-                else {
-                    var hasChildren = (node.children && node.children.length > 0);
-                    if (hasChildren) {
-                        var url = getFirstPageUrl(node.children);
-                        if (url) return url;
-                    }
-                }
-            }
-            return null;
-        }
-
-        function initializeLogo() {
-            if($axure.document.configuration.logoImagePath) {
-                $('#interfaceControlFrameLogoImageContainer').html('<img id="logoImage" src="" />');
-                $('#logoImage').attr('src', $axure.document.configuration.logoImagePath).load(function() { resizeContent(); });
-                $('#interfaceControlFrameMinimizeContainer').css('background-color', '#FFFFFF');
-            } else $('#interfaceControlFrameLogoImageContainer').hide();
-
-            if ($axure.document.configuration.logoImageCaption) {
-                $('#interfaceControlFrameLogoCaptionContainer').html($axure.document.configuration.logoImageCaption);
-                $('#interfaceControlFrameMinimizeContainer').css('background-color', '#FFFFFF');
-            } else $('#interfaceControlFrameLogoCaptionContainer').hide();
-
-            if(!$('#interfaceControlFrameLogoImageContainer').is(':visible') && !$('#interfaceControlFrameLogoCaptionContainer').is(':visible')) {
-                $('#interfaceControlFrameLogoContainer').hide();
-            }
-        }
-
-        function mainFrame_onload() {
-            if($axure.page.pageName) document.title = $axure.page.pageName;
-        }
-
-        function QueryString(query) {
-            var qstring = self.location.href.split("?");
-            if(qstring.length < 2) return "";
-            return GetParameter(qstring, query);
-        }
-        
-        function GetParameter(qstring, query) {
-            var prms = qstring[1].split("&");
-            var frmelements = new Array();
-            var currprmeter, querystr = "";
-
-            for(var i = 0; i < prms.length; i++) {
-                currprmeter = prms[i].split("=");
-                frmelements[i] = new Array();
-                frmelements[i][0] = currprmeter[0];
-                frmelements[i][1] = currprmeter[1];
-            }
-
-            for(j = 0; j < frmelements.length; j++) {
-                if(frmelements[j][0].toLowerCase() == query.toLowerCase()) {
-                    querystr = frmelements[j][1];
-                    break;
-                }
-            }
-            return querystr;
-        }
-        
-        function HashString(query) {
-            var qstring = self.location.href.split("#");
-            if(qstring.length < 2) return "";
-            return GetParameter(qstring, query);
-        }
-
-    --></script>
-
-    <link type="text/css" rel="Stylesheet" href="plugins/sitemap/styles/sitemap.css" />
-    <script type="text/javascript" src="plugins/sitemap/sitemap.js"></script>
-    <link type="text/css" rel="Stylesheet" href="plugins/page_notes/styles/page_notes.css" />
-    <script type="text/javascript" src="plugins/page_notes/page_notes.js"></script>
-
-</head>
-<body scroll="no">
-    <div id="outerContainer">
-
-        <div id="leftPanel">
-            <div id="interfaceControlFrame">
-                <div id="interfaceControlFrameMinimizeContainer">
-                    <a title="Minimize" id="interfaceControlFrameMinimizeButton" onclick="collapse();">&nbsp;</a>
-                    <div id="interfaceControlFrameCloseContainer">
-                        <a title="Close" id="interfaceControlFrameCloseButton" onclick="closePlayer();">&nbsp;</a>
-                    </div>
-                </div>
-                <div id="interfaceControlFrameLogoContainer">
-                    <div id="interfaceControlFrameLogoImageContainer"></div>
-                    <div id="interfaceControlFrameLogoCaptionContainer"></div>
-                </div>
-                <div id="interfaceControlFrameHeaderContainer">
-                    <ul id="interfaceControlFrameHeader">
-                    </ul>
-                </div>
-                <div id="interfaceControlFrameContainer">
-                </div>
+            <!-- Unnamed (Shape) -->
+            <div id="u1" class="ax_paragraph">
+              <img id="u1_img" class="img " src="images/home___ux2day/u1.png"/>
+              <!-- Unnamed () -->
+              <div id="u2" class="text">
+                <p><span></span></p>
+              </div>
             </div>
+
+            <!-- Unnamed (Dynamic Panel) -->
+            <div id="u3" class="ax_dynamic_panel">
+              <div id="u3_state0" class="panel_state" data-label="State1">
+                <div id="u3_state0_content" class="panel_state_content">
+
+                  <!-- Unnamed (Shape) -->
+                  <div id="u4" class="ax_paragraph">
+                    <img id="u4_img" class="img " src="images/home___ux2day/u4.png"/>
+                    <!-- Unnamed () -->
+                    <div id="u5" class="text">
+                      <p><span>Are we moving towards Zero-UI age ? </span></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Shape) -->
+                  <div id="u6" class="ax_paragraph">
+                    <img id="u6_img" class="img " src="resources/images/transparent.gif"/>
+                    <!-- Unnamed () -->
+                    <div id="u7" class="text">
+                      <p><span></span></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Image) -->
+                  <div id="u8" class="ax_image">
+                    <img id="u8_img" class="img " src="images/home___ux2day/u8.png"/>
+                    <!-- Unnamed () -->
+                    <div id="u9" class="text">
+                      <p><span></span></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Image) -->
+                  <div id="u10" class="ax_image">
+                    <img id="u10_img" class="img " src="images/home___ux2day/u10.png"/>
+                    <!-- Unnamed () -->
+                    <div id="u11" class="text">
+                      <p><span></span></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Shape) -->
+                  <div id="u12" class="ax_paragraph">
+                    <img id="u12_img" class="img " src="images/home___ux2day/u12.png"/>
+                    <!-- Unnamed () -->
+                    <div id="u13" class="text">
+                      <p style="font-size:13px;"><span style="font-size:13px;">Zero UI is nothing but a concept of interacting to machines without any screen or interfaces. This enables us to communicate with machines in our simple colloquial language using behaviour and gestures. This is taking us to a new no-interface age. Complex machines are getting replaced by more complex ones but intelligent, empathetic, friendly and understanding at the same time. One example of such replacement is </span><a id="u14" class="link"><span style="font-size:13px;">Amazon Echo</span></a><span style="font-size:13px;"> replacing portable speakers in our homes. There are myriad examples like this. </span></p><p style="font-size:13px;"><span style="font-size:13px;">If we extrapolate this situation of 'Zero UI' to have a glimpse of the future, we may end up replacing all electronic gadgets of our daily lives by some ultra-intelligent magical sensing chips. The chips may be embedded in human body which could do everything merely upon a gut sense or a neurone activity. Consequently, there would be no-machine houses with bare minimal living facilities/accessories sounding more like roti-kapda-aur-makan(food-cloth-&amp;-house). This may even become 'roti-makan'(food-house), with kapda(cloth) replaced by digital bodypapers(on the lines of wallpapers), and bodaypapers could be changed in the blink of an eye. </span></p><p style="font-size:6px;"><span style="font-size:6px;">&nbsp;</span></p><p style="font-size:13px;"><span style="font-size:13px;">The central idea is to get away with anything which comes in between the humans and the experience. One of such examples was the revolutionary invention of 'touch' instead of mouse clicks. Fingers side-cornered mouse and other such interfacing devices.</span></p><p style="font-size:13px;"><span style="font-size:13px;">Now, on one hand we are heading towards making the human life independent of accessories and eliminating these hardwares which come in between the humans-as-it-is and the experiences, while on the other hand we are celebrating the return of digital pencils and pens. Yes, we are talking about Apple pencil in the world of zero UI, which seems pulling us back into the mechanical world.</span></p><p style="font-size:13px;"><span style="font-size:13px;">Its quite appreciable that the purpose of Apple pencil is to enable us to do more intricate interactions with iOS devices, that could not have been possible otherwise. But we cannot deny with certainty that there could be no way to do intricate interactions without pencils, which could have been more humane and natural. This may sound as a sci-fi concept but those days are not too far. We have started living the days of Sci-fi stories conceptualised just decades ago. Doesn't this appear as a half-hearted attempt to solve the particular problem in the Zero UI era and that too from Apple. This also raises another question if its a saturation-stage of innovation at Apple now.</span></p><p style="font-size:6px;"><span style="font-size:6px;">&nbsp;</span></p><p style="font-size:13px;"><span style="font-size:13px;">Consumers and connoisseurs of Apple devices always have a very high expectation in the field of technological innovation from Apple. There could perhaps been solved while staying on the same track of Zero UI, and making more humane and natural interactions possible.</span></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Shape) -->
+                  <div id="u15" class="ax_paragraph">
+                    <img id="u15_img" class="img " src="resources/images/transparent.gif"/>
+                    <!-- Unnamed () -->
+                    <div id="u16" class="text">
+                      <p><span>11 Oct 2015 Amit Kumar Tiwari</span></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Image) -->
+                  <div id="u17" class="ax_image">
+                    <img id="u17_img" class="img " src="images/home___ux2day/u17.png"/>
+                    <!-- Unnamed () -->
+                    <div id="u18" class="text">
+                      <p><span></span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Unnamed (Shape) -->
+            <div id="u19" class="ax_paragraph">
+              <img id="u19_img" class="img " src="images/home___ux2day/u19.png"/>
+              <!-- Unnamed () -->
+              <div id="u20" class="text">
+                <p><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; 5 Daily must-reads on UX for Today</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Shape) -->
+            <div id="u21" class="ax_paragraph">
+              <img id="u21_img" class="img " src="resources/images/transparent.gif"/>
+              <!-- Unnamed () -->
+              <div id="u22" class="text">
+                <p><a id="u23" class="link"><span>1. Deconstructing The Human Interaction</span></a></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Shape) -->
+            <div id="u24" class="ax_paragraph">
+              <img id="u24_img" class="img " src="resources/images/transparent.gif"/>
+              <!-- Unnamed () -->
+              <div id="u25" class="text">
+                <p><span>3. Unicorns, Foxes, and Hedgehogs: Why You Need Diversity on Your UX Team</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Image) -->
+            <div id="u26" class="ax_image">
+              <img id="u26_img" class="img " src="images/home___ux2day/u26.png"/>
+              <!-- Unnamed () -->
+              <div id="u27" class="text">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Shape) -->
+            <div id="u28" class="ax_paragraph">
+              <img id="u28_img" class="img " src="resources/images/transparent.gif"/>
+              <!-- Unnamed () -->
+              <div id="u29" class="text">
+                <p><span>5. A UX Legend On The Much-Rumored Death Of The Design Firm</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Shape) -->
+            <div id="u30" class="ax_paragraph">
+              <img id="u30_img" class="img " src="resources/images/transparent.gif"/>
+              <!-- Unnamed () -->
+              <div id="u31" class="text">
+                <p><span>2. Takeaways From Mobile Web Behavior</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Shape) -->
+            <div id="u32" class="ax_paragraph">
+              <img id="u32_img" class="img " src="resources/images/transparent.gif"/>
+              <!-- Unnamed () -->
+              <div id="u33" class="text">
+                <p><span>4. Better Notification UX for Phones and Tablets</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Shape) -->
+            <div id="u34" class="ax_paragraph">
+              <img id="u34_img" class="img " src="images/home___ux2day/u34.png"/>
+              <!-- Unnamed () -->
+              <div id="u35" class="text">
+                <p style="font-size:12px;"><a id="u36" class="link"><span style="font-size:11px;text-decoration:underline;">OpenDoors : A design concept to build relationships</span></a><span style="font-size:12px;"></span></p><p style="font-size:12px;"><span style="font-size:12px;">&nbsp;</span></p><p style="font-size:12px;"><span style="font-size:12px;">&nbsp;</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Image) -->
+            <div id="u37" class="ax_image">
+              <img id="u37_img" class="img " src="images/home___ux2day/u37.png"/>
+              <!-- Unnamed () -->
+              <div id="u38" class="text">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Shape) -->
+            <div id="u39" class="ax_paragraph">
+              <img id="u39_img" class="img " src="resources/images/transparent.gif"/>
+              <!-- Unnamed () -->
+              <div id="u40" class="text">
+                <p><a id="u41" class="link"><span>View Portfolio</span></a></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Horizontal Line) -->
+            <div id="u42" class="ax_horizontal_line">
+              <img id="u42_start" class="img " src="resources/images/transparent.gif" alt="u42_start"/>
+              <img id="u42_end" class="img " src="resources/images/transparent.gif" alt="u42_end"/>
+              <img id="u42_line" class="img " src="images/home___ux2day/u42_line.png" alt="u42_line"/>
+            </div>
+          </div>
         </div>
-        <div id="rightPanel">
-            <iframe id="mainFrame" name="mainFrame" width="100%" height="100%" src="" frameborder="0" style="display: block;"></iframe>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u43" class="ax_paragraph">
+        <img id="u43_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u44" class="text">
+          <p><span></span></p>
         </div>
+      </div>
 
+      <!-- Unnamed (Footer) -->
+
+      <!-- Header (Dynamic Panel) -->
+      <div id="u46" class="ax_dynamic_panel" data-label="Header">
+        <div id="u46_state0" class="panel_state" data-label="State1">
+          <div id="u46_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (Shape) -->
+            <div id="u47" class="ax_shape">
+              <img id="u47_img" class="img " src="images/home___ux2day/u47.png"/>
+              <!-- Unnamed () -->
+              <div id="u48" class="text">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- cpyright (Dynamic Panel) -->
+            <div id="u49" class="ax_dynamic_panel" data-label="cpyright">
+              <div id="u49_state0" class="panel_state" data-label="State1">
+                <div id="u49_state0_content" class="panel_state_content">
+
+                  <!-- cright (Shape) -->
+                  <div id="u50" class="ax_paragraph" data-label="cright">
+                    <img id="u50_img" class="img " src="resources/images/transparent.gif"/>
+                    <!-- Unnamed () -->
+                    <div id="u51" class="text">
+                      <p><span>Amit Kumar Tiwari © Copyrights 2015</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (UX2DayHeader) -->
+
+      <!-- Header (Dynamic Panel) -->
+      <div id="u53" class="ax_dynamic_panel" data-label="Header">
+        <div id="u53_state0" class="panel_state" data-label="State1">
+          <div id="u53_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (Shape) -->
+            <div id="u54" class="ax_shape">
+              <img id="u54_img" class="img " src="images/home___ux2day/u54.png"/>
+              <!-- Unnamed () -->
+              <div id="u55" class="text">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- MenuLinks_New (Dynamic Panel) -->
+            <div id="u56" class="ax_dynamic_panel" data-label="MenuLinks_New">
+              <div id="u56_state0" class="panel_state" data-label="State1">
+                <div id="u56_state0_content" class="panel_state_content">
+
+                  <!-- Link_Home (Shape) -->
+                  <div id="u57" class="ax_paragraph" data-label="Link_Home">
+                    <img id="u57_img" class="img " src="resources/images/transparent.gif"/>
+                    <!-- Unnamed () -->
+                    <div id="u58" class="text">
+                      <p><span>Home</span></p>
+                    </div>
+                  </div>
+
+                  <!-- Link_portfolio (Shape) -->
+                  <div id="u59" class="ax_paragraph" data-label="Link_portfolio">
+                    <img id="u59_img" class="img " src="resources/images/transparent.gif"/>
+                    <!-- Unnamed () -->
+                    <div id="u60" class="text">
+                      <p><span>Portfolio</span></p>
+                    </div>
+                  </div>
+
+                  <!-- Link_writeups_talks (Shape) -->
+                  <div id="u61" class="ax_paragraph" data-label="Link_writeups_talks">
+                    <img id="u61_img" class="img " src="resources/images/transparent.gif"/>
+                    <!-- Unnamed () -->
+                    <div id="u62" class="text">
+                      <p><span>Write-ups &amp; talks</span></p>
+                    </div>
+                  </div>
+
+                  <!-- Link_about (Shape) -->
+                  <div id="u63" class="ax_paragraph" data-label="Link_about">
+                    <img id="u63_img" class="img " src="resources/images/transparent.gif"/>
+                    <!-- Unnamed () -->
+                    <div id="u64" class="text">
+                      <p><span>About</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Unnamed (Image) -->
+            <div id="u65" class="ax_image">
+              <img id="u65_img" class="img " src="images/home___ux2day/u65.png"/>
+              <!-- Unnamed () -->
+              <div id="u66" class="text">
+                <p><span></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-
-    <div id="maximizePanelContainer">
-        <iframe id="expandFrame" src="resources/expand.html" width="100%" height="100%" scrolling="no" allowtransparency="true" frameborder="0"></iframe>
-    </div>
-
-</body>
+  </body>
 </html>
