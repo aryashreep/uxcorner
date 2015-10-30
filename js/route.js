@@ -18,13 +18,13 @@ app.config(['$routeProvider', function ($routeProvider) {
   $routeProvider
     // Home
     .when("/", {templateUrl: "partials/home.html", controller: "PageCtrl"})
+    // Blog
+    .when("/blog", {templateUrl: "partials/blog.html", controller: "BlogCtrl"})  
     // Pages
     .when("/about", {templateUrl: "partials/about.html", controller: "AboutCtrl"})
 	.when("/portfolio", {templateUrl: "partials/portfolio.html", controller: "PageCtrl"})
 	.when('/:portfolioName', {templateUrl: 'partials/portfolio-detail.html', controller: 'portfolioDetailCtrl'})
-    // Blog
-    .when("/blog", {templateUrl: "partials/blog.html", controller: "BlogCtrl"})
-    .when("/blog/post", {templateUrl: "partials/blog_item.html", controller: "BlogCtrl"})
+    .when("/blog/post/:Article", {templateUrl: "partials/blog-details.html", controller: "BlogDetailCtrl"})
     // else 404
     .otherwise("/404", {templateUrl: "partials/404.html", controller: "PageCtrl"});
 }]);
@@ -32,10 +32,25 @@ app.config(['$routeProvider', function ($routeProvider) {
 /**
  * Controls the Blog
  */
-app.controller('BlogCtrl', function (/* $scope, $location, $http */) {
+app.controller('BlogCtrl', function ($scope, $http) {
   console.log("Blog Controller reporting for duty.");
+	$http.get('json/blog.json').success(function(data) {
+	    $scope.blog = data;
+		//console.log($scope.blog);
+	});  
 });
-
+app.controller('BlogDetailCtrl', function ($scope, $sce, $routeParams, $http){
+	$scope.name = $routeParams.Article;
+		$http.get('json/blog.json').success(function(data) {
+		$scope.single_blog = data;
+		for(i in $scope.single_blog){	
+			if($scope.single_blog[i].blogTitle == $routeParams.Article){
+				$scope.cur_blog = angular.copy( $scope.single_blog[i] );
+			}	
+		}
+	  console.log($scope.cur_blog);
+	});
+});
 /**
  * Controls the About
  */

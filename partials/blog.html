@@ -1,118 +1,39 @@
-<div class="container">
-
-    <div class="row">
-
-        <div class="col-lg-12">
-            <h1 class="page-header">Blog Home 2
-                <small>Blog Homepage</small>
-            </h1>
-            <ol class="breadcrumb">
-                <li><a href="../index.html">Home</a>
-                </li>
-                <li class="active">Blog Home 2</li>
-            </ol>
-        </div>
-
-    </div>
-
-    <div class="row">
-
-        <div class="col-md-1">
-            <p><i class="fa fa-camera fa-4x"></i>
-            </p>
-
-            <p>May 24, 2013</p>
-        </div>
-        <div class="col-md-5">
-            <a href="blog-post.html">
-                <img src="http://placehold.it/600x300" class="img-responsive">
-            </a>
-        </div>
-        <div class="col-md-6">
-            <h3><a href="blog-post.html">A Blog Home Template for Bootstrap 3</a>
-            </h3>
-
-            <p>by <a href="#">Start Bootstrap</a>
-            </p>
-
-            <p>This is a very basic starter template for a blog homepage. It makes use of Font Awesome icons that are
-                built into the 'Modern Business' template, and it makes use of the Bootstrap 3 pager at the bottom of
-                the page.</p>
-            <a class="btn btn-primary" href="blog-post.html">Read More <i class="fa fa-angle-right"></i></a>
-        </div>
-
-    </div>
-
-    <hr>
-
-    <div class="row">
-
-        <div class="col-md-1">
-            <p><i class="fa fa-film fa-4x"></i>
-            </p>
-
-            <p>May 24, 2013</p>
-        </div>
-        <div class="col-md-5">
-            <a href="blog-post.html">
-                <img src="http://placehold.it/600x300" class="img-responsive">
-            </a>
-        </div>
-        <div class="col-md-6">
-            <h3><a href="blog-post.html">A Blog Home Template for Bootstrap 3</a>
-            </h3>
-
-            <p>by <a href="#">Start Bootstrap</a>
-            </p>
-
-            <p>This is a very basic starter template for a blog homepage. It makes use of Font Awesome icons that are
-                built into the 'Modern Business' template, and it makes use of the Bootstrap 3 pager at the bottom of
-                the page.</p>
-            <a class="btn btn-primary" href="blog-post.html">Read More <i class="fa fa-angle-right"></i></a>
-        </div>
-    </div>
-
-    <hr>
-
-    <div class="row">
-
-        <div class="col-md-1">
-            <p><i class="fa fa-file-text fa-4x"></i>
-            </p>
-
-            <p>May 24, 2013</p>
-        </div>
-        <div class="col-md-5">
-            <a href="blog-post.html">
-                <img src="http://placehold.it/600x300" class="img-responsive">
-            </a>
-        </div>
-        <div class="col-md-6">
-            <h3><a href="blog-post.html">A Blog Home Template for Bootstrap 3</a>
-            </h3>
-
-            <p>by <a href="#">Start Bootstrap</a>
-            </p>
-
-            <p>This is a very basic starter template for a blog homepage. It makes use of Font Awesome icons that are
-                built into the 'Modern Business' template, and it makes use of the Bootstrap 3 pager at the bottom of
-                the page.</p>
-            <a class="btn btn-primary" href="blog-post.html">Read More <i class="fa fa-angle-right"></i></a>
-        </div>
-    </div>
-
-    <hr>
-
-    <div class="row">
-
-        <ul class="pager">
-            <li class="previous"><a href="#">&larr; Older</a>
-            </li>
-            <li class="next"><a href="#">Newer &rarr;</a>
-            </li>
-        </ul>
-
-    </div>
-
-</div>
-<!-- /.container -->
+<!--
+==================================================
+Global Page Section Start
+================================================== -->
+<section class="global-page-header">
+	<div class="container">
+		<div class="section-heading">
+				<h1 class="title wow fadeInDown animated" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInDown;">WriteUps &amp; Talks</h1>
+				<p class="wow fadeInDown animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInDown;">
+					 Opinions, Principles, Processes and Artifacts on user experience. This also brings the commentary on latest design happennings across the globe. 
+				</p>
+			</div>
+	</div>
+	</section><!--/#Page header-->
+	<section id="blog-full-width">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12"  ng-repeat="data in blog">
+					<article class="wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">
+						<div class="blog-post-image">
+							<a href="#/blog/post/{{data.blogTitle}}"><img class="img-responsive" src="{{data.blogImage}}" alt="{{data.blogTitle}}" /></a>
+						</div>
+						<div class="blog-content">
+							<h2 class="blogpost-title">
+							<a href="#/blog/post/{{data.blogTitle}}">{{data.blogTitle}}</a>
+							</h2>
+							<div class="blog-meta">
+								<span>{{data.blogPostDate}}</span>
+								<span>by <a href="#/about">Amit</a></span>
+								<span><a href="#.">{{data.blogPostTag}}</a></span>
+							</div>
+							<p>{{data.blogSubTitle}}</p>
+							<a href="#/blog/post/{{data.blogTitle}}" class="btn btn-dafault btn-details">Continue Reading</a>
+						</div>
+						
+					</article>
+				</div>
+				</div>
+			</section>

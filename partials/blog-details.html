@@ -1,0 +1,46 @@
+<!--
+==================================================
+Global Page Section Start
+================================================== -->
+<section class="global-page-header">
+	<div class="container">
+		<div class="section-heading">
+				<h1 class="title wow fadeInDown animated" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInDown;">{{cur_blog.blogTitle}}</h1>
+				<p class="wow fadeInDown animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInDown;">{{cur_blog.blogSubTitle}}</p>
+			</div>
+	</div>
+	</section><!--/#Page header-->
+	<section class="single-post">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12" ng-repeat="single_blog in cur_blog">
+					<div ng-if="$first" ng-bind-html="cur_blog.blogDetailDescription | linebreak | to_trusted"></div>
+				</div>
+				<div class="col-md-12">
+					<ul class="social-share">
+						<h4>Share this article</h4>
+						<li>
+							<a href="#" class="Facebook">
+								<i class="ion-social-facebook"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="Twitter">
+								<i class="ion-social-twitter"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="Linkedin">
+								<i class="ion-social-linkedin"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="Google Plus">
+								<i class="ion-social-googleplus"></i>
+							</a>
+						</li>						
+					</ul>	
+				</div>
+			</div>	   
+		</div>
+	</section>

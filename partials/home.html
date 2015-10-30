@@ -9,13 +9,9 @@ Slider Section Start
 				<div class="block wow fadeInUp" data-wow-delay=".3s">					
 					<!-- Slider -->
 					<section class="cd-intro" ng-repeat="data in home">
-                        <div class="row">
-                            <div class="col-xs-6 pull-right">
                                 <h1 class="wow fadeInUp animated cd-headline slide" data-wow-delay=".4s" >
                                 <span>{{data.quote}}</span><br>
                                 <a class="btn-lines dark light wow fadeInUp animated smooth-scroll btn btn-default btn-green" data-wow-delay=".9s" href="#/portfolio" data-section="" >View Works</a>
-                            </div>        
-                        </div>    
 					</section>
 					<!-- /.slider -->
 					</div>
@@ -32,11 +28,11 @@ Slider Section Start
 			<div class="section-heading">
 				<h1 class="title wow fadeInDown" data-wow-delay=".3s">Featured Projects</h1>
 				<p class="wow fadeInDown" data-wow-delay=".5s">
-					Processes and standards evolve by its nature, and so is the design process. The agility of business requirements, dynamic ecosystems and needs of users are important factors influencing the change in methodologies.  Better processes are defined by opportunities and constraints making every solution and the experience unique of its kind. Some of my recent works exemplifying the same - 
+					Processes and standards evolve by its nature, and so is the design process. The agility of business requirements, dynamic ecosystems and needs of users are important factors influencing the change in methodologies.  Better processes are defined by opportunities and constraints making every solution and the experience unique of its kind. Some of the recent works exemplifying the same - 
 				</p>
 			</div>
 			<div class="row">
-				<div class="col-sm-4 col-xs-12 paginationclass" ng-repeat="data in portfolio | pagination : currentPage*itemsPerPage | limitTo: 3">
+				<div class="col-sm-4 col-xs-12 paginationclass" ng-repeat="data in portfolio | pagination : currentPage*itemsPerPage | limitTo: 6">
 					<figure class="wow fadeInLeft animated portfolio-item" data-wow-duration="500ms" data-wow-delay="0ms">
 						<div class="img-wrapper">
 							<img src="{{data.portfolioImage}}" class="img-responsive" alt="{{data.portfolioTitle}}" >
