@@ -1,0 +1,56 @@
+<!--
+==================================================
+Portfolio Section Start
+================================================== -->
+<section id="works" class="works" ng-init="showData()">
+	<div class="container">
+		<div class="section-heading">
+			<h1 class="title wow fadeInDown" data-wow-delay=".3s">Portfolio</h1>
+			<p class="wow fadeInDown" data-wow-delay=".5s">Most of the assignments have followed classical UX Model starting from Conceptualization, Detailed Research, Analysis, Initial sketches wrapping up with Hi-fidelity Design &amp; evaluation. Whereas today, the processes have become more flexible, quick, agile and pragmatic. Design approaches are redefined based on the numerous constraints everytime. However, these are some of the activities which are practiced regularly in almost all the projects -
+			</p>
+			<div class="portfolio-single-img">
+					<img class="img-responsive pr-img-center" alt="" src="images/portfolio/MyProcessIcons.jpg">
+			</div>			
+		</div>
+		<div class="row">
+			<div class="col-sm-4 col-xs-12 paginationclass" ng-repeat="data in portfolio | pagination : currentPage*itemsPerPage | limitTo: itemsPerPage">
+				<figure class="wow fadeInLeft animated portfolio-item" data-wow-duration="500ms" data-wow-delay="0ms">
+					<div class="img-wrapper">
+						<img src="{{data.portfolioImage}}" class="img-responsive" alt="{{data.portfolioTitle}}" >
+						<div class="overlay">
+							<div class="buttons">
+								<a class="fancybox" href="{{data.portfolioBrief}}">Project Brief</a>
+								<a href="#/{{data.portfolioTitle}}">Details</a>
+							</div>
+						</div>
+					</div>
+					<figcaption>
+					<h4>
+					<a href="#/{{data.portfolioTitle}}">
+						{{data.portfolioTitle}}
+					</a>
+					</h4>
+					<p>
+						{{data.portfolioSubTitle}}
+						<!--{{data.portfolioDescription | cut:true:60}}-->
+					</p>
+					</figcaption>
+				</figure>
+			</div>
+			<!--<div class="pagination-div">
+				<ul class="pagination">
+				  <li ng-class="DisablePrevPage()">
+					<a href ng-click="prevPage()">« Prev</a>
+				  </li>
+				  <li ng-repeat="n in range()" ng-class="{active: n == currentPage}" ng-click="setPage(n)">
+					<a href="#/works">{{n+1}}</a>
+				  </li>
+				  <li ng-class="DisableNextPage()">
+					<a href ng-click="nextPage()">Next »</a>
+					 
+				  </li>
+				</ul>
+			</div>-->
+		</div>
+	</div>
+</section> <!-- #works -->

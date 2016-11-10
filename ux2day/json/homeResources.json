@@ -1,0 +1,32 @@
+[
+  {
+    "resourcesImage": "item-1.jpg",
+    "resourcesTitle": "Pragmatic UX for Service Industry",
+    "resourcesDescription": "A framework to introduce UX to IT service-industry"
+  },
+  {
+    "resourcesImage": "item-2.jpg",
+    "resourcesTitle": "Material Design in 5 Slides",
+    "resourcesDescription": "Blend of principles of design and science"
+  },
+  {
+    "resourcesImage": "item-3.jpg",
+    "resourcesTitle": "Elastic Users",
+    "resourcesDescription": "Way to Personas"
+  },
+  {
+    "resourcesImage": "item-4.jpg",
+    "resourcesTitle": "Storyboarding in UX Design",
+    "resourcesDescription": "What, Why &amp; How of Storyboarding"
+  },
+  {
+    "resourcesImage": "item-5.jpg",
+    "resourcesTitle": "Introduction to User Experience",
+    "resourcesDescription": "Understanding user experience design"
+  },
+  {
+    "resourcesImage": "item-6.jpg",
+    "resourcesTitle": "Designs Rules or Rules Design",
+    "resourcesDescription": "The rivalry of design over rules"
+  }      
+]
